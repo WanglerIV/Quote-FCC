@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+
+    
+}
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+
+main{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease 0.5s
+
+}
+
+#quote-box{
+    width: 50%;
+    height: min-content;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+
+    backdrop-filter:  blur(3px);
+    padding-top: 2rem;
+}
+
+.quoteLogo{
+    font-family: "BIZ UDPGothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10rem;
+    width: fit-content;
+    height: 55px;
+    color: white;
+    margin-left: 1rem;
+}
+
+#quote-box h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 1rem 2rem;
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+
+    margin-top: 2.5rem;
+
+}
+#quote-box h2{
+    font-size: 1rem;
+    letter-spacing: 0.07rem;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+
+    margin-bottom: 3.5rem;
+
+
+}
+
+.buttons{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#new-quote{
+    padding: 1.2rem 7rem;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    justify-self: center;
+    margin: 0 auto;
+    font-weight: 500;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#new-quote:hover{
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#tweet-quote img{
+    width: 20px;
+    height: 20px;
+}
+
+#tweet-quote{
+    background-color: #ffffff;
+    border-top-left-radius: 2px;
+    padding: 0.6rem;
+}
+
+.hide{
+    background-color: #ffffff;
+    border-top-left-radius: 2px;
+    padding: 0.6rem;
+    visibility: hidden;
+}
+
+.hide img{
+    width: 20px;
+    height: 20px;
+}
+
+#tweet-quote:hover{
+    background-color: #e5e5e5;
+}
