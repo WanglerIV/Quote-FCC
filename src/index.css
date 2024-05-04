@@ -5,11 +5,9 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
-
-    
 }
 body {
-    overflow: hidden; /* Hide scrollbars */
+    overflow: hidden; 
   }
 
 main{
@@ -24,11 +22,10 @@ main{
 }
 
 #quote-box{
-    width: 50%;
+    width: 40rem;
     height: min-content;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 5px;
-
     backdrop-filter:  blur(3px);
     padding-top: 2rem;
 }
@@ -64,15 +61,11 @@ main{
     text-align: center;
     font-weight: 200;
     font-style: italic;
-
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     color: white;
-
     margin-bottom: 3.5rem;
-
-
 }
 
 .buttons{
@@ -92,12 +85,10 @@ main{
     justify-self: center;
     margin: 0 auto;
     font-weight: 500;
-
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 #new-quote:hover{
-
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
@@ -127,4 +118,140 @@ main{
 
 #tweet-quote:hover{
     background-color: #e5e5e5;
+}
+
+@media screen and (max-width: 700px) {
+
+    #quote-box{
+        width: 30rem;
+    }
+
+    .quoteLogo{
+        font-size: 7rem;
+    }
+
+    #quote-box h1{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 1rem 2rem;    
+        margin-top: 2.5rem;
+    
+    }
+    #quote-box h2{
+        font-size: 0.8rem;
+        letter-spacing: 0.07rem;
+        font-weight: 200;
+        margin-bottom: 3.5rem;
+    }
+
+    
+    #tweet-quote img{
+        width: 15px;
+        height: 15px;
+    }
+    
+    #tweet-quote{
+        padding: 0.5rem;
+    }
+    
+    .hide{
+
+        padding: 0.5rem;
+    }
+    
+    .hide img{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    #quote-box{
+        width: 25rem;
+    }
+
+    .quoteLogo{
+        font-size: 6rem;
+    }
+
+
+    #quote-box h1{
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.5rem 1.5rem;    
+        margin-top: 1.5rem;
+    
+    }
+    #quote-box h2{
+        font-size: 0.5rem;
+        letter-spacing: 0.05rem;
+        font-weight: 200;
+        margin-bottom: 2rem;
+    }
+
+    #new-quote{
+        padding: 0.75rem 2.5rem;
+        font-weight: 500;
+    }
+
+    #tweet-quote img{
+        width: 10px;
+        height: 10px;
+    }
+    
+    #tweet-quote{
+        padding: 0.4rem;
+    }
+    
+    .hide{
+
+        padding: 0.4rem;
+    }
+    
+    .hide img{
+        width: 10px;
+        height: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 430px) {
+    #quote-box{
+        width: 20rem;
+    }
+    .quoteLogo{
+        font-size: 5rem;
+    }
+    #quote-box h1{
+        font-size: 0.6rem;
+        font-weight: 500;
+        padding: 0.3rem 1rem;    
+        margin-top: 1rem;
+    
+    }
+    #quote-box h2{
+        font-size: 0.4rem;
+        letter-spacing: 0.05rem;
+        font-weight: 200;
+        margin-bottom: 1rem;
+    }
+    #new-quote{
+        padding: 0.5rem 1.5rem;
+        font-weight: 500;
+    }
+    #tweet-quote img{
+        width: 8px;
+        height: 8px;
+    }
+    #tweet-quote{
+        padding: 0.3rem;
+    }
+    .hide{
+        padding: 0.3rem;
+    }
+    .hide img{
+        width: 8px;
+        height: 8px;
+    }
 }
