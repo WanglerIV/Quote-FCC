@@ -180,7 +180,8 @@ main{
         font-size: 0.8rem;
         font-weight: 500;
         padding: 0.5rem 1.5rem;    
-        margin-top: 1.5rem;
+        margin-top: 0rem;
+        font-size: 15px;
     
     }
     #quote-box h2{
@@ -188,11 +189,13 @@ main{
         letter-spacing: 0.05rem;
         font-weight: 200;
         margin-bottom: 2rem;
+        font-size: 11px;
     }
 
     #new-quote{
         padding: 0.75rem 2.5rem;
         font-weight: 500;
+        font-size: 9px;
     }
 
     #tweet-quote img{
@@ -221,13 +224,13 @@ main{
         width: 20rem;
     }
     .quoteLogo{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     #quote-box h1{
-        font-size: 0.6rem;
+        font-size: 13px;
         font-weight: 500;
         padding: 0.3rem 1rem;    
-        margin-top: 1rem;
+        margin-top: 0rem;
     
     }
     #quote-box h2{
@@ -235,6 +238,7 @@ main{
         letter-spacing: 0.05rem;
         font-weight: 200;
         margin-bottom: 1rem;
+        font-size: 10px;
     }
     #new-quote{
         padding: 0.5rem 1.5rem;
